@@ -17,11 +17,11 @@
 ## Run Project
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+cd frontend  
+npm install  
+npm run dev  
 
 ### Backend
-cd backend
-mvn clean install
-mvn spring-boot:run
+cd backend  
+mvn clean install  
+mvn spring-boot:run  
