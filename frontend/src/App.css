@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  font-family: 'Inter', sans-serif;
+  color: #e2e8f0;
+  padding: 30px;
+}
+
+/* Container */
+.app {
+  max-width: 750px;
+  margin: auto;
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #38bdf8;
+}
+
+/* File Upload */
+input[type="file"] {
+  width: 100%;
+  padding: 15px;
+  border: 2px dashed #38bdf8;
+  border-radius: 12px;
+  background: #020617;
+  color: #94a3b8;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+input[type="file"]:hover {
+  background: #020617;
+  border-color: #0ea5e9;
+}
+
+/* File Info */
+p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* Dropdown & Input */
+select,
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+  border: none;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-width: 120px;
+}
+
+/* Price */
+p:last-of-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #22c55e;
+}
+
+/* Button */
+button {
+  background: #38bdf8;
+  color: #020617;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* Orders Section */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #f8fafc;
+}
+
+/* Order Card */
+.order-item {
+  background: #020617;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid #334155;
+}
+
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border: none;
+  display: flex;
+  align-items: center;   /* ✅ center text inside button */
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
